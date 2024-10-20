@@ -1,0 +1,19 @@
+<div class="container">
+    <h2 class="page-title">Lista de recetas</h2>
+    @for (recipe of recipes; track recipe.name) {
+        <app-recipe-card [recipe]="recipe"></app-recipe-card>
+        } @empty {
+        <p>There are no items.</p>
+        }
+
+        <!-- <card>
+            <cardTitle title></cardTitle>
+            <cardBody bodyText></cardBody>
+        </card>
+
+        <ng-content></ng-content>
+
+        <cartTitle title></cartTitle>
+        <cardBody bodyText></cardBody> -->
+
+</div>

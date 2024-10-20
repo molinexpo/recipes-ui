@@ -1,0 +1,4 @@
+<div class="recipe-card" (click)="viewRecipeDetail(recipe.id)">
+    <h3>{{ recipe.name }}</h3>
+    <p>{{recipe.numberOfPeople}} people {{recipe.duration}} min {{recipe.difficulty | uppercase }}</p>
+</div>

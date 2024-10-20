@@ -1,0 +1,7 @@
+.recipe-card {
+    border: 1px black solid;
+    width: 100%;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    border-radius: 10px;
+}
