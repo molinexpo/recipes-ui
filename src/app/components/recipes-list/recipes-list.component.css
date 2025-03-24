@@ -1,3 +1,13 @@
 .container{
-    margin: 20px;
+  display: flex;
+  height: 100%;
+}
+
+.main-content {
+  padding: 20px;
+  flex: 1;
+}
+
+h2 {
+  color: #015551;
 }
